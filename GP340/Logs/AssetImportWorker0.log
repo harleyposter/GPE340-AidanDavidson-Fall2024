@@ -15,7 +15,7 @@ C:/Users/stars/Documents/GPE340-Fall24/GPE340-AidanDavidson-Fall2024/GP340
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62216
+64586
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/stars/Documents/GPE340-Fall24/GPE340-AidanDavidson-Fall2024/GP340
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20736] Host "[IP] 192.168.68.75 [Port] 0 [Flags] 2 [Guid] 1806351470 [EditorId] 1806351470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AD-2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [20736] Host "[IP] 192.168.68.75 [Port] 0 [Flags] 2 [Guid] 1806351470 [EditorId] 1806351470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AD-2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22980] Host "[IP] 192.168.68.75 [Port] 0 [Flags] 2 [Guid] 2555552774 [EditorId] 2555552774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AD-2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22980] Host "[IP] 192.168.68.75 [Port] 0 [Flags] 2 [Guid] 2555552774 [EditorId] 2555552774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AD-2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.5f1 (381b4941466e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004215 seconds.
-- Loaded All Assemblies, in  0.428 seconds
+Registered in 0.007236 seconds.
+- Loaded All Assemblies, in  0.700 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.396 seconds
-Domain Reload Profiling: 821ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.413 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (367ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (166ms)
-		LoadAssemblies (144ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (336ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (146ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (171ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (397ms)
+	FinalizeReload (414ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (335ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,66 +150,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.956 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.131 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.830 seconds
-Domain Reload Profiling: 1781ms
-	BeginReloadAssembly (376ms)
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 1984ms
+	BeginReloadAssembly (434ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (401ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (472ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (150ms)
-			BuildScriptInfoCaches (20ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (180ms)
+			BuildScriptInfoCaches (21ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (830ms)
+	FinalizeReload (864ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (631ms)
+		SetupLoadedEditorAssemblies (650ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (489ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (500ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3140 unused Assets / (0.9 MB). Loaded Objects now: 3698.
-Memory consumption went from 115.4 MB to 114.5 MB.
-Total: 6.249400 ms (FindLiveObjects: 0.833000 ms CreateObjectMapping: 0.211100 ms MarkObjects: 3.971900 ms  DeleteObjects: 1.231600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4187.386514 seconds.
-  path: Assets/Art/X Bot.fbx
-  artifactKey: Guid(2907c44e6db6c274d996cd8f224cc8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/X Bot.fbx using Guid(2907c44e6db6c274d996cd8f224cc8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48a6b39dc2bd679b7bfb881ef1743b53') in 0.1909345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.642541 seconds.
-  path: Assets/Art/Y Bot.fbx
-  artifactKey: Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Y Bot.fbx using Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '808c56af2f8074c5876c1ee8c44dbfcf') in 0.0533015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+Unloading 3141 unused Assets / (1.0 MB). Loaded Objects now: 3699.
+Memory consumption went from 115.4 MB to 114.4 MB.
+Total: 6.307100 ms (FindLiveObjects: 0.565500 ms CreateObjectMapping: 0.159100 ms MarkObjects: 4.311100 ms  DeleteObjects: 1.269800 ms)
 
 ========================================================================
 Received Prepare
@@ -228,911 +212,803 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.677 seconds
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.949 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.703 seconds
-Domain Reload Profiling: 1377ms
-	BeginReloadAssembly (205ms)
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1739ms
+	BeginReloadAssembly (283ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (556ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3139 unused Assets / (0.7 MB). Loaded Objects now: 3699.
+Memory consumption went from 115.5 MB to 114.8 MB.
+Total: 8.560400 ms (FindLiveObjects: 0.520200 ms CreateObjectMapping: 0.136100 ms MarkObjects: 6.685100 ms  DeleteObjects: 1.217300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3134 unused Assets / (0.8 MB). Loaded Objects now: 3699.
+Memory consumption went from 115.7 MB to 114.8 MB.
+Total: 9.640100 ms (FindLiveObjects: 0.632400 ms CreateObjectMapping: 0.144500 ms MarkObjects: 5.926600 ms  DeleteObjects: 2.934600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2576.067782 seconds.
+  path: Assets/Script/Controller.cs
+  artifactKey: Guid(14ff63aaab4103c4d92c519a0d884ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Controller.cs using Guid(14ff63aaab4103c4d92c519a0d884ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e17768ea0c362f81eb5798c6777b5bf2') in 0.012331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3135 unused Assets / (0.9 MB). Loaded Objects now: 3702.
+Memory consumption went from 116.3 MB to 115.4 MB.
+Total: 6.448700 ms (FindLiveObjects: 0.694300 ms CreateObjectMapping: 0.193500 ms MarkObjects: 4.491600 ms  DeleteObjects: 1.068400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.697412 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(773fe2d3b27b3f143b682c953c22c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(773fe2d3b27b3f143b682c953c22c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99bc379d7057bf571820479e617948da') in 0.0013363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3135 unused Assets / (0.8 MB). Loaded Objects now: 3702.
+Memory consumption went from 116.3 MB to 115.4 MB.
+Total: 6.073900 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.137200 ms MarkObjects: 4.247100 ms  DeleteObjects: 1.180800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.244700 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(773fe2d3b27b3f143b682c953c22c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(773fe2d3b27b3f143b682c953c22c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd150318b9088e9d21a8647fa5f4ab1fb') in 0.0013175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.158714 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(773fe2d3b27b3f143b682c953c22c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(773fe2d3b27b3f143b682c953c22c371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd150318b9088e9d21a8647fa5f4ab1fb') in 0.0006771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3136 unused Assets / (0.7 MB). Loaded Objects now: 3703.
+Memory consumption went from 116.3 MB to 115.6 MB.
+Total: 6.474400 ms (FindLiveObjects: 0.535900 ms CreateObjectMapping: 0.138000 ms MarkObjects: 4.803500 ms  DeleteObjects: 0.995900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.124498 seconds.
+  path: Assets/Script/Pawn.cs
+  artifactKey: Guid(fd631034db362f54cb44f25f690d6e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Pawn.cs using Guid(fd631034db362f54cb44f25f690d6e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2a27a874af3e756fade505dd5012f4c') in 0.0013282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3136 unused Assets / (0.6 MB). Loaded Objects now: 3703.
+Memory consumption went from 116.3 MB to 115.6 MB.
+Total: 6.592900 ms (FindLiveObjects: 0.620100 ms CreateObjectMapping: 0.174400 ms MarkObjects: 4.416500 ms  DeleteObjects: 1.380300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.182910 seconds.
+  path: Assets/Script/Pawn.cs
+  artifactKey: Guid(fd631034db362f54cb44f25f690d6e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Pawn.cs using Guid(fd631034db362f54cb44f25f690d6e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fc5d6f2710084124808bf5fb6bee521') in 0.0015272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.793 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.791 seconds
+Domain Reload Profiling: 1578ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3141 unused Assets / (0.8 MB). Loaded Objects now: 3703.
+Memory consumption went from 118.0 MB to 117.2 MB.
+Total: 5.807400 ms (FindLiveObjects: 0.521700 ms CreateObjectMapping: 0.136900 ms MarkObjects: 4.173300 ms  DeleteObjects: 0.974200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.563885 seconds.
+  path: Assets/Script/Pawn.cs
+  artifactKey: Guid(fd631034db362f54cb44f25f690d6e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Pawn.cs using Guid(fd631034db362f54cb44f25f690d6e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761ac825adf00ad33222a5400ec6755e') in 0.0025518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3137 unused Assets / (1.0 MB). Loaded Objects now: 3704.
+Memory consumption went from 118.2 MB to 117.2 MB.
+Total: 6.635200 ms (FindLiveObjects: 0.507000 ms CreateObjectMapping: 0.135700 ms MarkObjects: 4.488600 ms  DeleteObjects: 1.502000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.920274 seconds.
+  path: Assets/Script/HumanoidPawn.cs
+  artifactKey: Guid(f44de55a4f5367e4bb80cf1e73502ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/HumanoidPawn.cs using Guid(f44de55a4f5367e4bb80cf1e73502ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '990abc6c8f67eec24a7722b08ca6fee1') in 0.001155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1676ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (444ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 119.9 MB to 119.1 MB.
+Total: 6.932800 ms (FindLiveObjects: 0.938100 ms CreateObjectMapping: 0.432000 ms MarkObjects: 4.581800 ms  DeleteObjects: 0.979200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3137 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 120.1 MB to 119.4 MB.
+Total: 7.340000 ms (FindLiveObjects: 0.684400 ms CreateObjectMapping: 0.149400 ms MarkObjects: 4.850200 ms  DeleteObjects: 1.654600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.768 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1552ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 121.9 MB to 121.1 MB.
+Total: 5.669200 ms (FindLiveObjects: 0.730200 ms CreateObjectMapping: 0.140900 ms MarkObjects: 3.717600 ms  DeleteObjects: 1.078500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.842 seconds
+Domain Reload Profiling: 1744ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (560ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (619ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 123.8 MB to 123.0 MB.
+Total: 7.733900 ms (FindLiveObjects: 0.774100 ms CreateObjectMapping: 0.687700 ms MarkObjects: 5.305000 ms  DeleteObjects: 0.964900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.733 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1501ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 125.7 MB to 125.0 MB.
+Total: 6.330000 ms (FindLiveObjects: 0.533500 ms CreateObjectMapping: 0.142400 ms MarkObjects: 4.679000 ms  DeleteObjects: 0.974300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.759 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 127.7 MB to 127.0 MB.
+Total: 5.410200 ms (FindLiveObjects: 0.574000 ms CreateObjectMapping: 0.137900 ms MarkObjects: 3.910800 ms  DeleteObjects: 0.786500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1483ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 129.6 MB to 128.9 MB.
+Total: 5.534200 ms (FindLiveObjects: 0.508000 ms CreateObjectMapping: 0.410100 ms MarkObjects: 3.826000 ms  DeleteObjects: 0.788900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1502ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 131.5 MB to 130.7 MB.
+Total: 5.236000 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.558100 ms  DeleteObjects: 1.036600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1497ms
+	BeginReloadAssembly (216ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (43ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (373ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (401ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (108ms)
+			BuildScriptInfoCaches (121ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (703ms)
+	FinalizeReload (774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (522ms)
+		SetupLoadedEditorAssemblies (571ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 133.5 MB to 132.8 MB.
+Total: 6.320600 ms (FindLiveObjects: 0.663700 ms CreateObjectMapping: 0.156700 ms MarkObjects: 4.247300 ms  DeleteObjects: 1.251100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1498ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (571ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (395ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3138 unused Assets / (0.6 MB). Loaded Objects now: 3744.
-Memory consumption went from 126.7 MB to 126.1 MB.
-Total: 5.328600 ms (FindLiveObjects: 0.486400 ms CreateObjectMapping: 0.164700 ms MarkObjects: 3.735500 ms  DeleteObjects: 0.940900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 114.083795 seconds.
-  path: Assets/Animations/CharacterAnim.controller
-  artifactKey: Guid(f3e8c543849792545920d1b0491e34c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterAnim.controller using Guid(f3e8c543849792545920d1b0491e34c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8ee4574179a4b8573c88146e841f86b') in 0.0197111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.940030 seconds.
-  path: Assets/Animations/CharacterAnim.controller
-  artifactKey: Guid(f3e8c543849792545920d1b0491e34c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterAnim.controller using Guid(f3e8c543849792545920d1b0491e34c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8ceceef153d9f3c7fca3ef8796a6c63') in 0.0017602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.298485 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run backward left.fbx
-  artifactKey: Guid(1b674da0291688440bebc9db8d4078d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run backward left.fbx using Guid(1b674da0291688440bebc9db8d4078d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76216f93c3601e6d18cd1fcfaef191b1') in 0.0196337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.986504 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run backward right.fbx
-  artifactKey: Guid(b4f38fee881942940974a8436bd65a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run backward right.fbx using Guid(b4f38fee881942940974a8436bd65a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b43fbb75be736e8b4e4bde1a4bb60048') in 0.0041461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.620718 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run forward.fbx
-  artifactKey: Guid(fc7841d828ea13b4ca270951e8a6dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run forward.fbx using Guid(fc7841d828ea13b4ca270951e8a6dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a32ef6fed8246729590918c62e51c1ef') in 0.0035051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.695301 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run forward left.fbx
-  artifactKey: Guid(30ec4da7ffbd75f4db6fe38ffe6c563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run forward left.fbx using Guid(30ec4da7ffbd75f4db6fe38ffe6c563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5d2715330983e815e8399ae2b2761fa') in 0.0035316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.480544 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run forward right.fbx
-  artifactKey: Guid(3232451eb5951264ba8a62b7b8d129af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run forward right.fbx using Guid(3232451eb5951264ba8a62b7b8d129af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6e4c33e9f21d3e6790d8222a5213fa3') in 0.0036295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.108780 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run left.fbx
-  artifactKey: Guid(baf0b8a4d1daa974297dfc7177c9f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run left.fbx using Guid(baf0b8a4d1daa974297dfc7177c9f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66280fe21fde752d6a24828ca2c6ce6b') in 0.0034667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.270668 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run right.fbx
-  artifactKey: Guid(fcd7dbb21b0412f458b7ce8550d587c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run right.fbx using Guid(fcd7dbb21b0412f458b7ce8550d587c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab801ecee4835e588fb999e39c42894') in 0.0034269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.728331 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward.fbx
-  artifactKey: Guid(326c657b4e989d44da31243dfa1f7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward.fbx using Guid(326c657b4e989d44da31243dfa1f7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeae25e174b1e4df3469b70f2fbf1812') in 0.0037085 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.058917 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward.fbx
-  artifactKey: Guid(326c657b4e989d44da31243dfa1f7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward.fbx using Guid(326c657b4e989d44da31243dfa1f7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e11271f4af3b1a763929cbc1d70bdf') in 0.0035379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.033500 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward left.fbx
-  artifactKey: Guid(123bed11e5d30924cbddd383e77981b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward left.fbx using Guid(123bed11e5d30924cbddd383e77981b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8747cc65eb26270cfd4d398243a6412') in 0.0039992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.482690 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward right.fbx
-  artifactKey: Guid(3bb14ddb9dadc8a409ffd1596bcf25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward right.fbx using Guid(3bb14ddb9dadc8a409ffd1596bcf25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f4899ae107d67829288d605a7fbe644') in 0.0035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.879167 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint forward.fbx
-  artifactKey: Guid(275d783c2e3cddb4e84c16f005c02bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint forward.fbx using Guid(275d783c2e3cddb4e84c16f005c02bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95a76560d53a161210271b88dd9e6d26') in 0.0034737 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.776955 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint left.fbx
-  artifactKey: Guid(02dbd9e9f231a714bb6fa2076d1b5e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint left.fbx using Guid(02dbd9e9f231a714bb6fa2076d1b5e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eeb71f577e3132b9e11ac26744e894f') in 0.0036394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.052547 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint right.fbx
-  artifactKey: Guid(cb4c7aac7a977ab46bd823e0c8284628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint right.fbx using Guid(cb4c7aac7a977ab46bd823e0c8284628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0df7dcbea8e199263a555e2e4557ae54') in 0.0043149 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.750318 seconds.
-  path: Assets/Animations/Pro Rifle Pack/turn 90 left.fbx
-  artifactKey: Guid(f145bbc700adc9d48b8df6a1d8ef4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/turn 90 left.fbx using Guid(f145bbc700adc9d48b8df6a1d8ef4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf01aa10ac7428ed8797e260a973496') in 0.0036385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.613796 seconds.
-  path: Assets/Animations/Pro Rifle Pack/turn 90 right.fbx
-  artifactKey: Guid(596a7fe29d74ae14e97a73f5f1f90fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/turn 90 right.fbx using Guid(596a7fe29d74ae14e97a73f5f1f90fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ccf84b50023af03520981a184fadea9') in 0.0036012 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.904619 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk backward left.fbx
-  artifactKey: Guid(ba0499c385cbaed4cac264cec54ead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk backward left.fbx using Guid(ba0499c385cbaed4cac264cec54ead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f054b544d6d4e4968da3574956a697') in 0.0036247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.366386 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk backward right.fbx
-  artifactKey: Guid(f29dcb8f486c6934bb057411ed6347a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk backward right.fbx using Guid(f29dcb8f486c6934bb057411ed6347a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1dfa0def24830f8cd48234e90bd5d67') in 0.0037207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.226558 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk backward.fbx
-  artifactKey: Guid(18e9c2b299c742b4ab7a90d290ed169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk backward.fbx using Guid(18e9c2b299c742b4ab7a90d290ed169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bc2d1e21edadb20e28d1de76975eb32') in 0.0035354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.066832 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching backward left.fbx
-  artifactKey: Guid(8bacd548d800c304eb77beafcc72bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward left.fbx using Guid(8bacd548d800c304eb77beafcc72bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8609b2acd5a5c4368840372bb43cb1ad') in 0.0044568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.994717 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching backward right.fbx
-  artifactKey: Guid(6dd74089a96f4f0439496b8fff6809bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward right.fbx using Guid(6dd74089a96f4f0439496b8fff6809bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '120b53c8c74f2dd024e504847b96dc91') in 0.0038852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.887856 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching backward.fbx
-  artifactKey: Guid(88b0bc0ecec42414fb5fca9c74a13909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward.fbx using Guid(88b0bc0ecec42414fb5fca9c74a13909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e743210446f6b2af9310e44e6bb86f8') in 0.0035789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.065420 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching forward left.fbx
-  artifactKey: Guid(a0e07818f0022fa46b7702840cd4fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward left.fbx using Guid(a0e07818f0022fa46b7702840cd4fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdbfc4ef411aa8936aa5b34037970426') in 0.0036436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.362475 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching forward right.fbx
-  artifactKey: Guid(a1daf2137738e6a438d12c8b076ce6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward right.fbx using Guid(a1daf2137738e6a438d12c8b076ce6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ce3e689bdc8a1ba77d77cfe228b139') in 0.0034976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.156015 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching forward.fbx
-  artifactKey: Guid(af74e1c3b86150544ab9ab0843dc21eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward.fbx using Guid(af74e1c3b86150544ab9ab0843dc21eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a6fa2e56277813dce12653243a8e9b4') in 0.003561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.365868 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching left.fbx
-  artifactKey: Guid(b223862179133614997eb54fd6c0ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching left.fbx using Guid(b223862179133614997eb54fd6c0ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bc5ef377a330c39dfeb65f700e6e976') in 0.0036448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.318667 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching right.fbx
-  artifactKey: Guid(0926ec000ace5dc41b6653c00f7d0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching right.fbx using Guid(0926ec000ace5dc41b6653c00f7d0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c69d16711a6fdf101ed51c4a12b5fee') in 0.0034787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.381384 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk forward left.fbx
-  artifactKey: Guid(9a837a939bb7ca345a8835c59cd54775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk forward left.fbx using Guid(9a837a939bb7ca345a8835c59cd54775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a489b584156e74449e995125f9819e3') in 0.0038364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.451049 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk forward right.fbx
-  artifactKey: Guid(eca931b6c02f0c04d89a620cd333064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk forward right.fbx using Guid(eca931b6c02f0c04d89a620cd333064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca5cdfd30243f3a0577fe07283c5a813') in 0.0034857 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.945801 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk forward.fbx
-  artifactKey: Guid(c12827e52907ff046a36dd949d1bc4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk forward.fbx using Guid(c12827e52907ff046a36dd949d1bc4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae7aa07c360c3fa088181818efe1cf5') in 0.004262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.962299 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk left.fbx
-  artifactKey: Guid(9da8136d4e4b3394890ca740f96eaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk left.fbx using Guid(9da8136d4e4b3394890ca740f96eaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '065a489aa38e0b7d0353d63bb184cd25') in 0.0034561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.746079 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk right.fbx
-  artifactKey: Guid(6333c7774a966ba4c83e586d2f15f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk right.fbx using Guid(6333c7774a966ba4c83e586d2f15f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a02d13baa6f27ead79fdf7eca474484') in 0.0037018 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.050742 seconds.
-  path: Assets/Animations/Pro Rifle Pack/crouching turn 90 left.fbx
-  artifactKey: Guid(d5ce79c1a5e3a93469c222ff23f73009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/crouching turn 90 left.fbx using Guid(d5ce79c1a5e3a93469c222ff23f73009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9160f4ff94de523249138b8de6f6357') in 0.0033907 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.603047 seconds.
-  path: Assets/Animations/Pro Rifle Pack/crouching turn 90 right.fbx
-  artifactKey: Guid(74d13ab9e8389284cac7e7b7bbb38f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/crouching turn 90 right.fbx using Guid(74d13ab9e8389284cac7e7b7bbb38f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '245517167f97c4d7908c47ae1751defa') in 0.0034546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.971496 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death crouching headshot front.fbx
-  artifactKey: Guid(a88c5731c6b0cc54d9754282b8e1c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death crouching headshot front.fbx using Guid(a88c5731c6b0cc54d9754282b8e1c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55e79156fe0b27cc7421f29559ddcf3d') in 0.0047623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.704816 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from back headshot.fbx
-  artifactKey: Guid(08337b2320e40ab4e8ed3df488ab7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from back headshot.fbx using Guid(08337b2320e40ab4e8ed3df488ab7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cb4b8ccf592d87b77a9abfe281035b1') in 0.004023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.080165 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from front headshot.fbx
-  artifactKey: Guid(720abd2eaa8de014c8ddff8d0fc0dfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from front headshot.fbx using Guid(720abd2eaa8de014c8ddff8d0fc0dfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be318a65561d51a2cdf883e6f605ab07') in 0.0036451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.692984 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from right.fbx
-  artifactKey: Guid(062a3dea9dcc30444997435df7a1a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from right.fbx using Guid(062a3dea9dcc30444997435df7a1a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '477fe86813a2a7ac27749265e5bc87ae') in 0.0038525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.143550 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from the back.fbx
-  artifactKey: Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from the back.fbx using Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5f8d72ebee8d32a7bcd2bda59614308') in 0.0039227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.160376 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from the front.fbx
-  artifactKey: Guid(1da1a93bc0db6c84c85a0807bafa88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from the front.fbx using Guid(1da1a93bc0db6c84c85a0807bafa88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfda9fc510d4f7262ce2a9251bc215d') in 0.0037027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.232535 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from the back.fbx
-  artifactKey: Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from the back.fbx using Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cc24747fdc16508b764b6c8bbf33308') in 0.0035558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.641794 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle aiming.fbx
-  artifactKey: Guid(77af1b47089b81940942fc534aeddb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle aiming.fbx using Guid(77af1b47089b81940942fc534aeddb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e85e6e67826fd9f8d049c28bb84115a8') in 0.0036352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.077517 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle crouching aiming.fbx
-  artifactKey: Guid(20926398657744e479ace6aab13babc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle crouching aiming.fbx using Guid(20926398657744e479ace6aab13babc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e9609df868cb3f98e2a61e597a8eeb4') in 0.0034534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.710744 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle crouching.fbx
-  artifactKey: Guid(54ace6b4fd5dca142b474fddf7ae94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle crouching.fbx using Guid(54ace6b4fd5dca142b474fddf7ae94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61be26e8282ed49a53d4d0f1ff56c303') in 0.0035159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.297665 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle.fbx
-  artifactKey: Guid(4ee4283c11453e5438f6bb6c41ec95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle.fbx using Guid(4ee4283c11453e5438f6bb6c41ec95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca38699d5982b562c26a9dd88b04ee43') in 0.0038157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.714347 seconds.
-  path: Assets/Animations/Pro Rifle Pack/jump down.fbx
-  artifactKey: Guid(4e2f90fcbdb10d447a05478b3dcbe064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/jump down.fbx using Guid(4e2f90fcbdb10d447a05478b3dcbe064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96a77dd8a427a788b19842bfff85c432') in 0.0036992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.274510 seconds.
-  path: Assets/Animations/Pro Rifle Pack/jump loop.fbx
-  artifactKey: Guid(b96f3727c53ccf2439a4861b6756e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/jump loop.fbx using Guid(b96f3727c53ccf2439a4861b6756e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0962066cc3c062758a25055cf464c7a7') in 0.0035773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.134804 seconds.
-  path: Assets/Animations/Pro Rifle Pack/jump up.fbx
-  artifactKey: Guid(af738b304008ef441ad6140d9a1b210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/jump up.fbx using Guid(af738b304008ef441ad6140d9a1b210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5ee3154ee6304104dbfc32cc64abec8') in 0.0039752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.976875 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching left.fbx
-  artifactKey: Guid(b223862179133614997eb54fd6c0ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching left.fbx using Guid(b223862179133614997eb54fd6c0ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f346e2ae4107a67acc5dfc40b6dd1bf9') in 0.0039624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.435637 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching forward.fbx
-  artifactKey: Guid(af74e1c3b86150544ab9ab0843dc21eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward.fbx using Guid(af74e1c3b86150544ab9ab0843dc21eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc1aaaa54430eda5fb0bc780d5fc5c26') in 0.0034393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.260084 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching forward right.fbx
-  artifactKey: Guid(a1daf2137738e6a438d12c8b076ce6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward right.fbx using Guid(a1daf2137738e6a438d12c8b076ce6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a912cf1882b71ee328c24d8621af2516') in 0.0035178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.193609 seconds.
-  path: Assets/Animations/Pro Rifle Pack/crouching turn 90 left.fbx
-  artifactKey: Guid(d5ce79c1a5e3a93469c222ff23f73009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/crouching turn 90 left.fbx using Guid(d5ce79c1a5e3a93469c222ff23f73009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9847d5ab289c74d08c7318e14cbeab8c') in 0.0038002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.022138 seconds.
-  path: Assets/Animations/Pro Rifle Pack/crouching turn 90 right.fbx
-  artifactKey: Guid(74d13ab9e8389284cac7e7b7bbb38f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/crouching turn 90 right.fbx using Guid(74d13ab9e8389284cac7e7b7bbb38f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82a04ee348f87400e9cd0851fefa01ca') in 0.003764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.673863 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death crouching headshot front.fbx
-  artifactKey: Guid(a88c5731c6b0cc54d9754282b8e1c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death crouching headshot front.fbx using Guid(a88c5731c6b0cc54d9754282b8e1c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aa5ab7a5388183652d0afbddb2450e3') in 0.0037478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.578220 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from back headshot.fbx
-  artifactKey: Guid(08337b2320e40ab4e8ed3df488ab7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from back headshot.fbx using Guid(08337b2320e40ab4e8ed3df488ab7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8225b027f0667eb4be260935238be376') in 0.0036425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.229324 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from front headshot.fbx
-  artifactKey: Guid(720abd2eaa8de014c8ddff8d0fc0dfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from front headshot.fbx using Guid(720abd2eaa8de014c8ddff8d0fc0dfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '319e55fb6acb346aa2f0b2d470d5d9a3') in 0.0036896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.182698 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from right.fbx
-  artifactKey: Guid(062a3dea9dcc30444997435df7a1a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from right.fbx using Guid(062a3dea9dcc30444997435df7a1a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89ec06fda5ee6b9f292b0c2bf7e1efc9') in 0.0038246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.093005 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from the back.fbx
-  artifactKey: Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from the back.fbx using Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70527eb97be4af796c95a507bf9e2858') in 0.0036703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.880350 seconds.
-  path: Assets/Animations/Pro Rifle Pack/death from the front.fbx
-  artifactKey: Guid(1da1a93bc0db6c84c85a0807bafa88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/death from the front.fbx using Guid(1da1a93bc0db6c84c85a0807bafa88e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffddd69337d9d2321f6f5e7003fe5ad6') in 0.003611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.106092 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle aiming.fbx
-  artifactKey: Guid(77af1b47089b81940942fc534aeddb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle aiming.fbx using Guid(77af1b47089b81940942fc534aeddb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29439e14f1437b547d8fda74714bc043') in 0.0038666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.939741 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle crouching aiming.fbx
-  artifactKey: Guid(20926398657744e479ace6aab13babc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle crouching aiming.fbx using Guid(20926398657744e479ace6aab13babc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4ed4709258d82d8854c44fdc6995a7b') in 0.0034528 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.512633 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle crouching.fbx
-  artifactKey: Guid(54ace6b4fd5dca142b474fddf7ae94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle crouching.fbx using Guid(54ace6b4fd5dca142b474fddf7ae94c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e86d930768f42e76e5d2f3b215ff3a66') in 0.0034827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.279098 seconds.
-  path: Assets/Animations/Pro Rifle Pack/idle.fbx
-  artifactKey: Guid(4ee4283c11453e5438f6bb6c41ec95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/idle.fbx using Guid(4ee4283c11453e5438f6bb6c41ec95fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b821c54e15c13163032079d8dfd2ae27') in 0.0032994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.043814 seconds.
-  path: Assets/Animations/Pro Rifle Pack/jump down.fbx
-  artifactKey: Guid(4e2f90fcbdb10d447a05478b3dcbe064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/jump down.fbx using Guid(4e2f90fcbdb10d447a05478b3dcbe064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a03962cfd7fef15e94572df62627580e') in 0.0034733 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.241995 seconds.
-  path: Assets/Animations/Pro Rifle Pack/jump loop.fbx
-  artifactKey: Guid(b96f3727c53ccf2439a4861b6756e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/jump loop.fbx using Guid(b96f3727c53ccf2439a4861b6756e62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e16a214a60bd1afd91b414ed926bb70') in 0.0033077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.693738 seconds.
-  path: Assets/Animations/Pro Rifle Pack/jump up.fbx
-  artifactKey: Guid(af738b304008ef441ad6140d9a1b210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/jump up.fbx using Guid(af738b304008ef441ad6140d9a1b210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ecb090fd84caeabbc8a39ef24748fc1') in 0.0034124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.938243 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run backward left.fbx
-  artifactKey: Guid(1b674da0291688440bebc9db8d4078d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run backward left.fbx using Guid(1b674da0291688440bebc9db8d4078d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c118c6c81de7dc4a14db1c7ae57b5fce') in 0.0034132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.186109 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run backward right.fbx
-  artifactKey: Guid(b4f38fee881942940974a8436bd65a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run backward right.fbx using Guid(b4f38fee881942940974a8436bd65a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '212b1a976c0301e6e6df5cdd12c0f2c7') in 0.0035959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.746969 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run backward.fbx
-  artifactKey: Guid(dd72563c0faa679449e44bdd10701c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run backward.fbx using Guid(dd72563c0faa679449e44bdd10701c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45bb5d312b8de0c83cfb2f04e6431f58') in 0.0039379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.312357 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run forward left.fbx
-  artifactKey: Guid(30ec4da7ffbd75f4db6fe38ffe6c563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run forward left.fbx using Guid(30ec4da7ffbd75f4db6fe38ffe6c563d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91c01b2c98b47d0323b12dbee8d7937') in 0.0033655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.229336 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run forward right.fbx
-  artifactKey: Guid(3232451eb5951264ba8a62b7b8d129af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run forward right.fbx using Guid(3232451eb5951264ba8a62b7b8d129af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba369f6fe8ca9e56b375a245af2c2176') in 0.0036258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.792147 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run forward.fbx
-  artifactKey: Guid(fc7841d828ea13b4ca270951e8a6dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run forward.fbx using Guid(fc7841d828ea13b4ca270951e8a6dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f53943c60a0e57e9e0e2d1cfc9e456f') in 0.003411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.328947 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk right.fbx
-  artifactKey: Guid(6333c7774a966ba4c83e586d2f15f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk right.fbx using Guid(6333c7774a966ba4c83e586d2f15f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fca5a3f63af142a2b318b176f12827f') in 0.0035546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.090469 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk left.fbx
-  artifactKey: Guid(9da8136d4e4b3394890ca740f96eaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk left.fbx using Guid(9da8136d4e4b3394890ca740f96eaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b0ae4cbf7d18ea320e541c30cf9f729') in 0.0034493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.181685 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk forward.fbx
-  artifactKey: Guid(c12827e52907ff046a36dd949d1bc4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk forward.fbx using Guid(c12827e52907ff046a36dd949d1bc4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd771c4aa5ae0299de878e2722c6473cb') in 0.0034298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.938204 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching right.fbx
-  artifactKey: Guid(0926ec000ace5dc41b6653c00f7d0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching right.fbx using Guid(0926ec000ace5dc41b6653c00f7d0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448bcbdbc29b0813a479a147651c316c') in 0.0035058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.443564 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching forward left.fbx
-  artifactKey: Guid(a0e07818f0022fa46b7702840cd4fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward left.fbx using Guid(a0e07818f0022fa46b7702840cd4fea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fae164ce19edcf059f31a22eec2fa6a') in 0.0034871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.494369 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching backward right.fbx
-  artifactKey: Guid(6dd74089a96f4f0439496b8fff6809bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward right.fbx using Guid(6dd74089a96f4f0439496b8fff6809bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aa2982b829834c42d77b1d5022747df') in 0.0047946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.321817 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching backward left.fbx
-  artifactKey: Guid(8bacd548d800c304eb77beafcc72bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward left.fbx using Guid(8bacd548d800c304eb77beafcc72bd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b5eb520ebc576582c05d1e322ce5e71') in 0.0033373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.268167 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk crouching backward.fbx
-  artifactKey: Guid(88b0bc0ecec42414fb5fca9c74a13909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward.fbx using Guid(88b0bc0ecec42414fb5fca9c74a13909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fdf02f3ce819de1fd0474b480bd5bb') in 0.0035744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.727120 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk backward right.fbx
-  artifactKey: Guid(f29dcb8f486c6934bb057411ed6347a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk backward right.fbx using Guid(f29dcb8f486c6934bb057411ed6347a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f3e314f06e24352250451fc6485ca2') in 0.0035242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.244128 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk backward left.fbx
-  artifactKey: Guid(ba0499c385cbaed4cac264cec54ead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk backward left.fbx using Guid(ba0499c385cbaed4cac264cec54ead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1daf855c948c0dfd35ba7104ba63648f') in 0.0035833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.384566 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk backward.fbx
-  artifactKey: Guid(18e9c2b299c742b4ab7a90d290ed169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk backward.fbx using Guid(18e9c2b299c742b4ab7a90d290ed169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63bf68ffab1682d895ce90eca8d979fe') in 0.0034217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.517819 seconds.
-  path: Assets/Animations/Pro Rifle Pack/turn 90 right.fbx
-  artifactKey: Guid(596a7fe29d74ae14e97a73f5f1f90fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/turn 90 right.fbx using Guid(596a7fe29d74ae14e97a73f5f1f90fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b0431510c7eb8e2da0c3e6cdeb07a5e') in 0.0035865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.680602 seconds.
-  path: Assets/Animations/Pro Rifle Pack/turn 90 left.fbx
-  artifactKey: Guid(f145bbc700adc9d48b8df6a1d8ef4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/turn 90 left.fbx using Guid(f145bbc700adc9d48b8df6a1d8ef4487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d85a20351ddf3f47fe0541dca38d6af') in 0.0034179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.667814 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint right.fbx
-  artifactKey: Guid(cb4c7aac7a977ab46bd823e0c8284628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint right.fbx using Guid(cb4c7aac7a977ab46bd823e0c8284628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097f38a9c74ca239031d6175bac994ab') in 0.003655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.366915 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint left.fbx
-  artifactKey: Guid(02dbd9e9f231a714bb6fa2076d1b5e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint left.fbx using Guid(02dbd9e9f231a714bb6fa2076d1b5e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '753dfffa3278570487cf27363c799ed5') in 0.0034784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.455455 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint forward right.fbx
-  artifactKey: Guid(898fcfbcb076f5046b3639e99aa994e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint forward right.fbx using Guid(898fcfbcb076f5046b3639e99aa994e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2d58e0bead8bb7e0388c3bbf90d6f59') in 0.0036761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.607049 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint forward left.fbx
-  artifactKey: Guid(fb3b820a22fae9e40b2030f79d863628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint forward left.fbx using Guid(fb3b820a22fae9e40b2030f79d863628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c945f6b7f7cbe18b4e1d418174ed8332') in 0.0042132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.049454 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint forward.fbx
-  artifactKey: Guid(275d783c2e3cddb4e84c16f005c02bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint forward.fbx using Guid(275d783c2e3cddb4e84c16f005c02bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b494da9c59958ee0618bcf4441c2401') in 0.0034425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.892791 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward right.fbx
-  artifactKey: Guid(3bb14ddb9dadc8a409ffd1596bcf25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward right.fbx using Guid(3bb14ddb9dadc8a409ffd1596bcf25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f115644d0a32969c31de79309b1c3239') in 0.0038189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.436907 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward left.fbx
-  artifactKey: Guid(123bed11e5d30924cbddd383e77981b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward left.fbx using Guid(123bed11e5d30924cbddd383e77981b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e7efa278961c30e66cfcbb5917f954') in 0.0033647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.168643 seconds.
-  path: Assets/Animations/Pro Rifle Pack/sprint backward.fbx
-  artifactKey: Guid(326c657b4e989d44da31243dfa1f7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/sprint backward.fbx using Guid(326c657b4e989d44da31243dfa1f7942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1455603ed825578177558400ed2842e3') in 0.0046264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.947210 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run right.fbx
-  artifactKey: Guid(fcd7dbb21b0412f458b7ce8550d587c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run right.fbx using Guid(fcd7dbb21b0412f458b7ce8550d587c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a757432b26a8200be034d56618c0afb3') in 0.0034572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.310216 seconds.
-  path: Assets/Animations/Pro Rifle Pack/run left.fbx
-  artifactKey: Guid(baf0b8a4d1daa974297dfc7177c9f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/run left.fbx using Guid(baf0b8a4d1daa974297dfc7177c9f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e7c4b040fc7b2de7dbc24cf0719e7a5') in 0.0040635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.837738 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk forward right.fbx
-  artifactKey: Guid(eca931b6c02f0c04d89a620cd333064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk forward right.fbx using Guid(eca931b6c02f0c04d89a620cd333064b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbbbf6274b3dbe9de9bfa8759850f31c') in 0.0035306 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.428297 seconds.
-  path: Assets/Animations/Pro Rifle Pack/walk forward left.fbx
-  artifactKey: Guid(9a837a939bb7ca345a8835c59cd54775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pro Rifle Pack/walk forward left.fbx using Guid(9a837a939bb7ca345a8835c59cd54775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7f0fa5497c6dc903737b62a041f9965') in 0.0039893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 183.097969 seconds.
-  path: Assets/Animations/CharacterAnim.controller
-  artifactKey: Guid(f3e8c543849792545920d1b0491e34c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterAnim.controller using Guid(f3e8c543849792545920d1b0491e34c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '464bd409e48efd3fcaff1a028227a7a4') in 0.002216 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.679 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 1385ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (395ms)
-		LoadAssemblies (376ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (111ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (712ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (532ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (399ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3138 unused Assets / (0.7 MB). Loaded Objects now: 3744.
-Memory consumption went from 130.2 MB to 129.5 MB.
-Total: 5.451400 ms (FindLiveObjects: 0.532200 ms CreateObjectMapping: 0.161900 ms MarkObjects: 3.744200 ms  DeleteObjects: 1.012400 ms)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 135.4 MB to 134.6 MB.
+Total: 5.886000 ms (FindLiveObjects: 0.657200 ms CreateObjectMapping: 0.136300 ms MarkObjects: 4.089400 ms  DeleteObjects: 1.001700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1152,119 +1028,89 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.694 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.706 seconds
-Domain Reload Profiling: 1397ms
-	BeginReloadAssembly (209ms)
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1497ms
+	BeginReloadAssembly (225ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (380ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (392ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (111ms)
+			BuildScriptInfoCaches (123ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (707ms)
+	FinalizeReload (769ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (527ms)
+		SetupLoadedEditorAssemblies (564ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (394ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3138 unused Assets / (0.7 MB). Loaded Objects now: 3744.
-Memory consumption went from 132.2 MB to 131.5 MB.
-Total: 5.453800 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.160800 ms MarkObjects: 3.794600 ms  DeleteObjects: 0.975900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 120.892153 seconds.
-  path: Assets/Art/Y Bot.fbx
-  artifactKey: Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Y Bot.fbx using Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6a25a08b38c48b58b6fee20809c2bf3') in 0.1561447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.683 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.725 seconds
-Domain Reload Profiling: 1404ms
-	BeginReloadAssembly (200ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (395ms)
-		LoadAssemblies (377ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (726ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (543ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (407ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3138 unused Assets / (0.8 MB). Loaded Objects now: 3744.
-Memory consumption went from 134.1 MB to 133.3 MB.
-Total: 5.614400 ms (FindLiveObjects: 0.486100 ms CreateObjectMapping: 0.156500 ms MarkObjects: 3.933400 ms  DeleteObjects: 1.037500 ms)
+Unloading 3142 unused Assets / (0.9 MB). Loaded Objects now: 3704.
+Memory consumption went from 137.3 MB to 136.5 MB.
+Total: 5.447600 ms (FindLiveObjects: 0.505800 ms CreateObjectMapping: 0.135600 ms MarkObjects: 3.494300 ms  DeleteObjects: 1.310900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3137 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 137.5 MB to 136.8 MB.
+Total: 8.389700 ms (FindLiveObjects: 1.009100 ms CreateObjectMapping: 0.173400 ms MarkObjects: 6.229800 ms  DeleteObjects: 0.975500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3137 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 137.5 MB to 136.7 MB.
+Total: 7.287300 ms (FindLiveObjects: 0.938400 ms CreateObjectMapping: 0.216500 ms MarkObjects: 4.952200 ms  DeleteObjects: 1.178800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3137 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 137.5 MB to 136.8 MB.
+Total: 5.874200 ms (FindLiveObjects: 0.772900 ms CreateObjectMapping: 0.199400 ms MarkObjects: 3.996300 ms  DeleteObjects: 0.904500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3137 unused Assets / (1.0 MB). Loaded Objects now: 3704.
+Memory consumption went from 137.5 MB to 136.6 MB.
+Total: 7.296500 ms (FindLiveObjects: 0.555200 ms CreateObjectMapping: 0.155400 ms MarkObjects: 5.104600 ms  DeleteObjects: 1.479400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -1284,64 +1130,792 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.684 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.717 seconds
-Domain Reload Profiling: 1397ms
-	BeginReloadAssembly (205ms)
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 1531ms
+	BeginReloadAssembly (223ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (380ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (399ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (111ms)
+			BuildScriptInfoCaches (126ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (718ms)
+	FinalizeReload (777ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
+		SetupLoadedEditorAssemblies (578ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (397ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 139.3 MB to 138.5 MB.
+Total: 5.592100 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.133500 ms MarkObjects: 3.938100 ms  DeleteObjects: 1.039300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.801 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1642ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (439ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (607ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3704.
+Memory consumption went from 141.2 MB to 140.4 MB.
+Total: 10.393000 ms (FindLiveObjects: 1.274600 ms CreateObjectMapping: 0.361400 ms MarkObjects: 7.878500 ms  DeleteObjects: 0.876100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 1518ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (572ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.9 MB). Loaded Objects now: 3704.
+Memory consumption went from 143.1 MB to 142.2 MB.
+Total: 5.469700 ms (FindLiveObjects: 0.612800 ms CreateObjectMapping: 0.150400 ms MarkObjects: 3.628900 ms  DeleteObjects: 1.076800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.753 seconds
+Domain Reload Profiling: 1484ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.7 MB). Loaded Objects now: 3704.
+Memory consumption went from 145.1 MB to 144.3 MB.
+Total: 5.531100 ms (FindLiveObjects: 0.558900 ms CreateObjectMapping: 0.146300 ms MarkObjects: 3.857800 ms  DeleteObjects: 0.966500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3138 unused Assets / (0.8 MB). Loaded Objects now: 3705.
+Memory consumption went from 145.2 MB to 144.5 MB.
+Total: 5.335800 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 0.144600 ms MarkObjects: 3.766900 ms  DeleteObjects: 0.924600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1246.966504 seconds.
+  path: Assets/Script/CameraController.cs
+  artifactKey: Guid(acaf393e9cbd1744bba790b967e44931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraController.cs using Guid(acaf393e9cbd1744bba790b967e44931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9488aebe5b02bb03ac2d82441c2ca3f8') in 0.0139814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.821 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (473ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (426ms)
 			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3138 unused Assets / (0.8 MB). Loaded Objects now: 3744.
-Memory consumption went from 136.0 MB to 135.2 MB.
-Total: 5.666200 ms (FindLiveObjects: 0.494500 ms CreateObjectMapping: 0.160800 ms MarkObjects: 3.987300 ms  DeleteObjects: 1.022000 ms)
+Unloading 3143 unused Assets / (0.9 MB). Loaded Objects now: 3705.
+Memory consumption went from 147.0 MB to 146.1 MB.
+Total: 5.945200 ms (FindLiveObjects: 0.620600 ms CreateObjectMapping: 0.191700 ms MarkObjects: 4.161000 ms  DeleteObjects: 0.970200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3138 unused Assets / (0.8 MB). Loaded Objects now: 3705.
+Memory consumption went from 147.2 MB to 146.4 MB.
+Total: 5.873700 ms (FindLiveObjects: 0.541100 ms CreateObjectMapping: 0.137400 ms MarkObjects: 4.181900 ms  DeleteObjects: 1.012100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 157.726361 seconds.
-  path: Assets/Art/Y Bot.fbx
-  artifactKey: Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Y Bot.fbx using Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ff708fae1eae15cceca87aa14aa6240') in 0.2081502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+  Time since last request: 7.996268 seconds.
+  path: Assets/Script/CameraController.cs
+  artifactKey: Guid(acaf393e9cbd1744bba790b967e44931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraController.cs using Guid(acaf393e9cbd1744bba790b967e44931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83e867d7791183d9394602d16696a144') in 0.0030575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1579ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3143 unused Assets / (0.8 MB). Loaded Objects now: 3705.
+Memory consumption went from 148.9 MB to 148.1 MB.
+Total: 5.575600 ms (FindLiveObjects: 0.627700 ms CreateObjectMapping: 0.207400 ms MarkObjects: 3.751100 ms  DeleteObjects: 0.987600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.770 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1545ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (781ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3143 unused Assets / (0.7 MB). Loaded Objects now: 3705.
+Memory consumption went from 150.8 MB to 150.1 MB.
+Total: 6.172200 ms (FindLiveObjects: 0.553700 ms CreateObjectMapping: 0.165500 ms MarkObjects: 4.440800 ms  DeleteObjects: 1.010600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\stars\Documents\GPE340-Fall24\GPE340-AidanDavidson-Fall2024\GP340\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.748 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.763 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (566ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3143 unused Assets / (0.8 MB). Loaded Objects now: 3705.
+Memory consumption went from 152.8 MB to 152.0 MB.
+Total: 6.135200 ms (FindLiveObjects: 0.552500 ms CreateObjectMapping: 0.152200 ms MarkObjects: 4.263100 ms  DeleteObjects: 1.165800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 170.155497 seconds.
+  path: Assets/Animations/CharacterAnim.controller
+  artifactKey: Guid(f3e8c543849792545920d1b0491e34c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/CharacterAnim.controller using Guid(f3e8c543849792545920d1b0491e34c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1424aac5b10a4ca52dc8b6984d1168d') in 0.1302808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.676855 seconds.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint forward right.fbx
+  artifactKey: Guid(898fcfbcb076f5046b3639e99aa994e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint forward right.fbx using Guid(898fcfbcb076f5046b3639e99aa994e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d0fa917176dd61bef4dd3eef6b8eda9') in 0.0908563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animations/Pro Rifle Pack/death from right.fbx
+  artifactKey: Guid(062a3dea9dcc30444997435df7a1a787) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/death from right.fbx using Guid(062a3dea9dcc30444997435df7a1a787) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cb495bab485bbb7373c845fa6fef680') in 0.0422582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk forward.fbx
+  artifactKey: Guid(c12827e52907ff046a36dd949d1bc4a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk forward.fbx using Guid(c12827e52907ff046a36dd949d1bc4a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9009b5bafc71cc7609255d06e06a31aa') in 0.0406054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Animations/Pro Rifle Pack/idle.fbx
+  artifactKey: Guid(4ee4283c11453e5438f6bb6c41ec95fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/idle.fbx using Guid(4ee4283c11453e5438f6bb6c41ec95fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47c1869ba8aa9f6f82a44a1c4f83245d') in 0.0396956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Script/HumanoidPawn.cs
+  artifactKey: Guid(f44de55a4f5367e4bb80cf1e73502ca7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/HumanoidPawn.cs using Guid(f44de55a4f5367e4bb80cf1e73502ca7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e52da37ce500b195c00b01da5a35257a') in 0.0101484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Animations/Pro Rifle Pack/idle crouching aiming.fbx
+  artifactKey: Guid(20926398657744e479ace6aab13babc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/idle crouching aiming.fbx using Guid(20926398657744e479ace6aab13babc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5184e8b7545980b84cf20b0f1b828f4a') in 0.0427296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Animations/Pro Rifle Pack/jump down.fbx
+  artifactKey: Guid(4e2f90fcbdb10d447a05478b3dcbe064) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/jump down.fbx using Guid(4e2f90fcbdb10d447a05478b3dcbe064) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '757fdfe6e7d8503752b9fd40b930a436') in 0.0420048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Animations/Pro Rifle Pack/crouching turn 90 left.fbx
+  artifactKey: Guid(d5ce79c1a5e3a93469c222ff23f73009) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/crouching turn 90 left.fbx using Guid(d5ce79c1a5e3a93469c222ff23f73009) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6338250ac03837125dbcc0e99d408223') in 0.0468678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint backward left.fbx
+  artifactKey: Guid(123bed11e5d30924cbddd383e77981b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint backward left.fbx using Guid(123bed11e5d30924cbddd383e77981b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff683064119a493e9d74cfc214b283b7') in 0.0443089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint backward right.fbx
+  artifactKey: Guid(3bb14ddb9dadc8a409ffd1596bcf25b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint backward right.fbx using Guid(3bb14ddb9dadc8a409ffd1596bcf25b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2bd0fc2c336c038bdaef3bfdb7030d7') in 0.0468731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Script/Pawn.cs
+  artifactKey: Guid(fd631034db362f54cb44f25f690d6e64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/Pawn.cs using Guid(fd631034db362f54cb44f25f690d6e64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae47356f827cefe339d186b7ce5b3cd7') in 0.0063022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk crouching forward left.fbx
+  artifactKey: Guid(a0e07818f0022fa46b7702840cd4fea1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk crouching forward left.fbx using Guid(a0e07818f0022fa46b7702840cd4fea1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ed9a2f5f0ef6681c66f6de6f7c6d2bc') in 0.0435623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint backward.fbx
+  artifactKey: Guid(326c657b4e989d44da31243dfa1f7942) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint backward.fbx using Guid(326c657b4e989d44da31243dfa1f7942) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ac2a4275928ce57925ec2842e4fcbda') in 0.0464325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk crouching left.fbx
+  artifactKey: Guid(b223862179133614997eb54fd6c0ceff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk crouching left.fbx using Guid(b223862179133614997eb54fd6c0ceff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfb611b91b11fa60af245cf9f2d98e18') in 0.0481417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint forward.fbx
+  artifactKey: Guid(275d783c2e3cddb4e84c16f005c02bc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint forward.fbx using Guid(275d783c2e3cddb4e84c16f005c02bc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb59490c5b49612932b2fc23c8fa1b37') in 0.0410997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint right.fbx
+  artifactKey: Guid(cb4c7aac7a977ab46bd823e0c8284628) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint right.fbx using Guid(cb4c7aac7a977ab46bd823e0c8284628) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd401bc9eae6b295d50ec953ca116ee1') in 0.0429027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animations/Pro Rifle Pack/death from the back.fbx
+  artifactKey: Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/death from the back.fbx using Guid(b5d1ea5fb1d22d748a13d53e0c99d94e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9f3f81774843ba6fb0e4f20f6934b4d') in 0.0457745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animations/Pro Rifle Pack/sprint left.fbx
+  artifactKey: Guid(02dbd9e9f231a714bb6fa2076d1b5e71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/sprint left.fbx using Guid(02dbd9e9f231a714bb6fa2076d1b5e71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffc33a8eec75654bb522abfb924edc9e') in 0.0464222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Animations/Pro Rifle Pack/run forward right.fbx
+  artifactKey: Guid(3232451eb5951264ba8a62b7b8d129af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/run forward right.fbx using Guid(3232451eb5951264ba8a62b7b8d129af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f182929fbf4bc9a9e461c2d4ba1d30c4') in 0.0420273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk crouching backward left.fbx
+  artifactKey: Guid(8bacd548d800c304eb77beafcc72bd3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk crouching backward left.fbx using Guid(8bacd548d800c304eb77beafcc72bd3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '712252a9c5070ca974866ad477254481') in 0.0448664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Script/CameraController.cs
+  artifactKey: Guid(acaf393e9cbd1744bba790b967e44931) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/CameraController.cs using Guid(acaf393e9cbd1744bba790b967e44931) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b31a3d256a7c1a250a37a883ade6921') in 0.007564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Animations/Pro Rifle Pack/idle crouching.fbx
+  artifactKey: Guid(54ace6b4fd5dca142b474fddf7ae94c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/idle crouching.fbx using Guid(54ace6b4fd5dca142b474fddf7ae94c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '029f9ae9e23c5593ff298eee7c6dfd57') in 0.0457312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk backward.fbx
+  artifactKey: Guid(18e9c2b299c742b4ab7a90d290ed169c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk backward.fbx using Guid(18e9c2b299c742b4ab7a90d290ed169c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42f62f32055d1511061fc95bf440e7fb') in 0.0397239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
   path: Assets/Art/Y Bot.fbx
-  artifactKey: Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Y Bot.fbx using Guid(ec64fdf736523c742933082d5d213b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bad0dec5d94af37c2ba13a276d79517') in 0.0383351 seconds
+  artifactKey: Guid(ec64fdf736523c742933082d5d213b2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Art/Y Bot.fbx using Guid(ec64fdf736523c742933082d5d213b2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '224a919d13dd7c423d67ab6e1a4cc8ec') in 0.0804124 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk forward left.fbx
+  artifactKey: Guid(9a837a939bb7ca345a8835c59cd54775) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk forward left.fbx using Guid(9a837a939bb7ca345a8835c59cd54775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af542b908a12da95093a161ed12c3d63') in 0.0466553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Animations/Pro Rifle Pack/crouching turn 90 right.fbx
+  artifactKey: Guid(74d13ab9e8389284cac7e7b7bbb38f62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/crouching turn 90 right.fbx using Guid(74d13ab9e8389284cac7e7b7bbb38f62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fcb55e34102b4a6881d362334deb67d') in 0.0449234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animations/Pro Rifle Pack/walk forward right.fbx
+  artifactKey: Guid(eca931b6c02f0c04d89a620cd333064b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/walk forward right.fbx using Guid(eca931b6c02f0c04d89a620cd333064b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53806a26bb68f6335df779fdfca98db7') in 0.0481678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Script/Controller.cs
+  artifactKey: Guid(14ff63aaab4103c4d92c519a0d884ebd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/Controller.cs using Guid(14ff63aaab4103c4d92c519a0d884ebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48b851ef965d92513f2d91cb07a7fbff') in 0.0062875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Animations/Pro Rifle Pack/jump loop.fbx
+  artifactKey: Guid(b96f3727c53ccf2439a4861b6756e62b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Animations/Pro Rifle Pack/jump loop.fbx using Guid(b96f3727c53ccf2439a4861b6756e62b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd13a9cbcae261e2957ff67cd9612c5b7') in 0.0416439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
